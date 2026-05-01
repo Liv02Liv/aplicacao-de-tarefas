@@ -1,0 +1,33 @@
+.form-page {
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.form-page-header {
+  margin-bottom: 24px;
+}
+
+.form-page-title {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 300;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.form-page-sub {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.form-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 0.5px solid var(--border);
+  padding: 24px;
+  max-width: 560px;
+}
